@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "../node_modules/@fortawesome/fontawesome-free/js/brands.js";
+import "../node_modules/@fortawesome/fontawesome-free/js/solid.js";
+import "../node_modules/@fortawesome/fontawesome-free/js/fontawesome.js";
 
 ReactDOM.render(
   <React.StrictMode>
