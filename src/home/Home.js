@@ -11,7 +11,7 @@ function Home() {
                     <h2 className="crazyText">Think. Develop. Deliver</h2>
                 </Col>
                 <Col xs="6">
-                    <h1 style={{color:"black"}}><i className="fas fa-meteor fa-9x"></i></h1>
+                    <h1 style={{color:"black"}}><i className="fab fa-d-and-d fa-7x"></i></h1>
                 </Col>
             </Row>
             {/* <Col>
