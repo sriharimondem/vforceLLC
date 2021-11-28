@@ -27,7 +27,7 @@ function App(props) {
       <div className="App">
           <div>
           <Navbar expand="md" fixed="top" light>
-            <NavbarBrand href="/"> V-FORCE </NavbarBrand>
+            <NavbarBrand href="/"> <img src={process.env.PUBLIC_URL +"/logoOld.jpeg"}/> </NavbarBrand>
             <NavbarToggler className="me-2" onClick={function noRefCheck(){}} />
           <Collapse navbar>
             <Nav navbar>

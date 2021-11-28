@@ -14,7 +14,7 @@
 }
 
 .app-body {
-  background-color: #d3d6db;
+  /* background-color: #d3d6db; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,7 @@
 
 .navbar {
   background-color: #598ad3;
+  height: 92px;
 }
 .footerContainer {
   padding: 0 60px;
@@ -60,4 +61,8 @@
 .content {
   font-size: 14px;
   color: #f9f9f9;
+}
+
+.navbar-expand-md .navbar-collapse {
+  flex-grow: initial;
 }

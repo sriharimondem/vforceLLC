@@ -8,9 +8,10 @@ function Home() {
                 <Col xs="6">
                     <h1 className="title">Welcome to  VFORCE LLC</h1>
                     <p className="titleParagraph">"We are a Piscataway, New Jersey based IT firm providing Professional IT Staffing, Project Consulting, Offshore Development, Technology Solutions, Product Development and End to End IT Solutions to its Clients in various industry verticals."</p>
+                    <h2 className="crazyText">Think. Develop. Deliver</h2>
                 </Col>
                 <Col xs="6">
-                    <h1 className="Title">Image Here</h1>
+                    <h1 style={{color:"black"}}>Image Here</h1>
                 </Col>
             </Row>
             {/* <Col>
@@ -88,7 +89,7 @@ function Home() {
                         <h4 style={{color: "#23a0ed", textAlign: "left"}}>
                             E-Business
                         </h4>
-                        <p style={{textAlign: "left"}}>
+                        <p style={{textAlign: "left", color:"black"}}>
                             VForce offers a complete line of ERP Solutions designed to help clients implement the right ERP strategy for their business -- one that will grow into a mature, valuable asset for their business. We understand ERP and leverage the right industry expertise with the right technical talent to create a team that delivers high quality results. Evaluating software options, helping you make the right choice between SAP, PeopleSoft, Oracle, Lawson and all other vendor options. 
                         </p>
                     </div>
@@ -96,7 +97,7 @@ function Home() {
                         <h4 style={{color: "#23a0ed", textAlign: "left"}}>
                             ERP
                         </h4>
-                        <p style={{textAlign: "left"}}>
+                        <p style={{textAlign: "left", color:"black"}}>
                             VForce offers a complete line of ERP Solutions designed to help clients. We are able to fully satisfy our clients by providing them with a customized enterprise resource planning (ERP) solutions based upon SAP, PeopleSoft and Oracle Applications. We deliver solutions; we develop user confidence throughout our clients organization.
                         </p>
                     </div>
