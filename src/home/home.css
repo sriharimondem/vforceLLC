@@ -125,4 +125,25 @@
       transform: translateY(4.8rem) scale(0.5);
     }
   }
+
+  .greyBanner {
+    background-color: cadetblue;
+  }
+  .bannerClientLogos {
+    background-color: #3F4367;
+    min-height: calc(100vh - 500px);
+    align-content: center;
+  }
+  .logosList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logosList::before {
+    border-left: 2px solid #c4c4c4;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: -15px;
+    top: 0;
+  }
   

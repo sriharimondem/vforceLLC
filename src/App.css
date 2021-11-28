@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 
@@ -39,4 +39,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  background-color: #598ad3;
+}
+.footerContainer {
+  padding: 0 60px;
+  margin: 0 auto;
+}
+.block-copyright {
+  padding: 28px 0;
+}
+.block-copyright .content {
+  text-align: center;
+}
+.footer-bottom {
+  background-color: #3f4367;
+}
+.content {
+  font-size: 14px;
+  color: #f9f9f9;
 }

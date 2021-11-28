@@ -59,6 +59,17 @@ function App(props) {
           <Route path="/contact" element={<Contact/>} />
         </Routes>
       </div>
+      <div className="footerContainer footer-bottom">
+        <div id="block-copyright" className="block-copyright">
+          <div className="content">
+            <div className="field field--name-body field--type-text-with-summary field--label-hidden field__items">
+              <div className="field__item">
+                <p>© 2007-2020 VForce LLC, Inc. All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     </Router>
     
