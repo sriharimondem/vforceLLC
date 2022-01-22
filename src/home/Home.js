@@ -5,13 +5,14 @@ function Home() {
     return(
         <Container fluid>
             <Row className="centeredTwo">
-                <Col xs="6">
+                <Col xs="12" lg="6">
                     <h1 className="title">Welcome to  VFORCE LLC</h1>
                     <p className="titleParagraph">"We are a Piscataway, New Jersey based IT firm providing Professional IT Staffing, Project Consulting, Offshore Development, Technology Solutions, Product Development and End to End IT Solutions to its Clients in various industry verticals."</p>
                     <h2 className="crazyText">Think. Develop. Deliver</h2>
                 </Col>
-                <Col xs="6">
-                    <h1 style={{color:"black"}}><i className="fab fa-d-and-d fa-7x"></i></h1>
+                <Col xs="12" lg="6">
+                    {/* <h1 style={{color:"black"}}><i className="fab fa-d-and-d fa-7x"></i></h1> */}
+                    <img src={process.env.PUBLIC_URL +"./landingAnimation.jpeg"} width={"80%"} height={"auto"} className="homepageAnimation" alt="homepageAnimation"/>
                 </Col>
             </Row>
             {/* <Col>

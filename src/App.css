@@ -14,14 +14,14 @@
 }
 
 .app-body {
-  /* background-color: #d3d6db; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
-  color: white;
+  color: #3f4367;
+  background-color: #F4F4F4;
 }
 
 .app-loader {
@@ -30,6 +30,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.appLogo {
+  width: 100%;
+  height: 88px;
 }
 
 @keyframes App-logo-spin {
@@ -42,7 +47,7 @@
 }
 
 .navbar {
-  background-color: #598ad3;
+  background-color: #F4F4F4;
   height: 92px;
 }
 .footerContainer {
@@ -66,3 +71,69 @@
 .navbar-expand-md .navbar-collapse {
   flex-grow: initial;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  /* color: rgba(0,0,0,.55); */
+  color: #3f4367 !important;
+  font-size: 1.7vw;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  body {
+      background-color: red;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+      background-color: yellow;
+  }
+}
+
+@media (min-width:320px)  { 
+  /* smartphones, iPhone, portrait 480x320 phones */ 
+  .dropdown-menu {
+    /* position: absolute;
+    z-index: 1000;
+    display: none; */
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+  }
+
+}
+@media (min-width:481px)  { 
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+  .dropdown-menu {
+    /* position: absolute;
+    z-index: 1000;
+    display: none; */
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+  }
+
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

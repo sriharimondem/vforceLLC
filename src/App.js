@@ -12,6 +12,9 @@ import Contact from './contact/Contact';
 function App(props) {
   const [userID, setUserId] = useState(null);
   const [disbaleLoader, setDisbaleLoader] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+
 
   useEffect(()=>{
     const uId = Math.random().toString(16).slice(2);
@@ -27,10 +30,10 @@ function App(props) {
       <div className="App">
           <div>
           <Navbar expand="md" fixed="top" light>
-            <NavbarBrand href="/"> <img src={process.env.PUBLIC_URL +"/logoOld.jpeg"}/> </NavbarBrand>
-            <NavbarToggler className="me-2" onClick={function noRefCheck(){}} />
-          <Collapse navbar>
-            <Nav navbar>
+            <NavbarBrand  href="/"> <img className="appLogo" src={process.env.PUBLIC_URL +"/vforceLogo.jpeg" } alt="applogo"/> </NavbarBrand>
+            <NavbarToggler className="me-2" onClick={toggle} />
+          <Collapse navbar isOpen={isOpen}>
+            <Nav navbar className='dropdown-menu' style={{position: "relative !important"}}>
             <NavItem>
               <NavLink tag={RouterLink} className="nav-link" to="/about" >About Us</NavLink>
             </NavItem>
