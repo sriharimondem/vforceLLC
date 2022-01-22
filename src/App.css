@@ -78,6 +78,17 @@
   font-size: 1.7vw;
 }
 
+.NavParent .dropdown-menu {
+  position: relative !important;
+  font-family: 'Amiri', serif;
+  color: #3f4367;
+}
+
+.underMaintainance {
+  font-family: 'Great Vibes', cursive;
+  font-size: 64px;
+}
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   body {

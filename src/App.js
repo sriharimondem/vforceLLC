@@ -30,10 +30,10 @@ function App(props) {
       <div className="App">
           <div>
           <Navbar expand="md" fixed="top" light>
-            <NavbarBrand  href="/"> <img className="appLogo" src={process.env.PUBLIC_URL +"/vforceLogo.jpeg" } alt="applogo"/> </NavbarBrand>
+            <NavbarBrand  href="/"> <img className="appLogo" src={process.env.PUBLIC_URL +"/vforceLogowhite.jpeg" } alt="applogo"/> </NavbarBrand>
             <NavbarToggler className="me-2" onClick={toggle} />
-          <Collapse navbar isOpen={isOpen}>
-            <Nav navbar className='dropdown-menu' style={{position: "relative !important"}}>
+          <Collapse navbar isOpen={isOpen} className='NavParent'>
+            <Nav navbar className='dropdown-menu greyBanner' style={{position: "relative !important"}}>
             <NavItem>
               <NavLink tag={RouterLink} className="nav-link" to="/about" >About Us</NavLink>
             </NavItem>

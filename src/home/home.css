@@ -9,10 +9,11 @@
 .title {
     color: #3f4367;
     font-size: 3.7vw;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-weight: bold;
     line-height: 1;
     letter-spacing: 0px;
+    font-family: 'Amiri', serif;
 }
 
 .container {
@@ -127,7 +128,7 @@
   }
 
   .greyBanner {
-    background-color: cadetblue;
+    background-color: #b2cff1 !important;
   }
   .bannerClientLogos {
     background-color: #3F4367;

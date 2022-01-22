@@ -12,7 +12,10 @@ function Home() {
                 </Col>
                 <Col xs="12" lg="6">
                     {/* <h1 style={{color:"black"}}><i className="fab fa-d-and-d fa-7x"></i></h1> */}
-                    <img src={process.env.PUBLIC_URL +"./landingAnimation.jpeg"} width={"80%"} height={"auto"} className="homepageAnimation" alt="homepageAnimation"/>
+                    {/* <img src={process.env.PUBLIC_URL +"./landingAnimation.jpeg"} width={"80%"} height={"auto"} className="homepageAnimation" alt="homepageAnimation"/> */}
+                    <video style={{width:"80%"}} autoPlay loop muted poster="chaplin.png">
+                        <source type="video/webm" src={process.env.PUBLIC_URL +"./RGB+Alpha.webm"} />
+                    </video>
                 </Col>
             </Row>
             {/* <Col>
