@@ -26,27 +26,27 @@ function Home() {
                 </div>
             </Col> */}
             <Row className="centeredTwo greyBanner">
-                <Col xs="4">
+                <Col xs="12" lg="4">
                     <h2 className="Title"><i className="fas fa-code-branch fa-5x"></i></h2>
                     <h4>Technology Solutions to various leading edge technologies</h4>
                     <p>ERP (SAP, Oracle Applications, PeopleSoft), e-commerce (Java, VB), RDBMS (Oracle, Sybase, Informix), client/server (Visual Basic, Power Builder), data warehousing etc.</p>
                 </Col>
-                <Col xs="4">
+                <Col xs="12" lg="4">
                     <h2 className="Title"><i className="fas fa-users fa-5x"></i></h2>
                     <h4>IT Staffing Consulting Services</h4>
                     <p>Consulting division focus on defining, optimizing and aligning our client’s business and IT strategies. Our services are being appreciated by a clients nation-wide.</p>
                 </Col>
-                <Col xs="4">
+                <Col xs="12" lg="4">
                     <h2 className="Title"><i className="fas fa-code fa-5x"></i></h2>
                     <h4>In-House and Outsourced Software Product Development</h4>
                     <p>VForce LLC is dedicated to provide custom made software services to customer's need of any size within global reach.</p>
                 </Col>
             </Row>
             <Row className="bannerClientLogos">
-                <Col xs="6">
+                <Col xs="12">
                     <h1 className="Title">Our Major Clients</h1>
                 </Col>
-                <Col xs="6">
+                <Col xs="12">
                     <div className="">
                         <ul className="logosList">
                             <li>
@@ -84,11 +84,11 @@ function Home() {
                 </Col>
             </Row>
             <Row className="centeredTwo">
-                <Col xs="6">
+                <Col xs="12">
                     <h1 className="title"><i className="fas fa-crosshairs fa-3x"></i><br/>Our services</h1>
                     <p className="titleParagraph">"VForce has a full suite of end-to-end IT services to help our customers meet their goals:"</p>
                 </Col>
-                <Col xs="6">
+                <Col xs="12">
                     <div>
                         <h4 style={{color: "#23a0ed", textAlign: "left"}}>
                             E-Business
